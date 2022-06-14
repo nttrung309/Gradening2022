@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <style name="Theme.App" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        ...
+        <item name="colorPrimary">@color/Green1</item>
+        <item name="colorPrimaryDark">@color/Green1</item>
+        <item name="colorAccent">@color/Green1</item>
+    </style>
+    <style name="button" parent="Theme.MaterialComponents">
+        ...
+        <item name="colorPrimary">@color/Green1</item>
+        <item name="colorOnPrimary">@color/Green1</item>
+        <item name="backgroundTint">@color/Green1</item>
+    </style>
+
+    <style name="categoryCardHome" parent="Widget.MaterialComponents.CardView">
+        ...
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:backgroundTint">@color/White2</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="categoryTextViewHome" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/Green1</item>
+    </style>
+    <style name="category" parent="Widget.MaterialComponents.CardView">
+        ...
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:backgroundTint">@color/White2</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="packageCard" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:backgroundTint">@color/White2</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="packageTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="packagePriceTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="fontFamily">@font/open_sans</item>
+    </style>
+    <style name="packageDiscountTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">15sp</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:textColor">@color/Green1</item>
+    </style>
+    <style name="categoryTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:textColor">@color/Green1</item>
+    </style>
+
+    <style name="serviceCard" parent="Widget.MaterialComponents.CardView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:backgroundTint">@color/White2</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="serviceTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">16sp</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="servicePriceTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">13sp</item>
+        <item name="fontFamily">@font/open_sans</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="seeAll" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+
+    <style name="productCard" parent="Widget.MaterialComponents.CardView">
+        ...
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:backgroundTint">@color/White2</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="productNameTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textSize">18sp</item>
+        <item name="fontFamily">@font/open_sans_bold</item>
+    </style>
+    <style name="productPriceTextView" parent="Widget.MaterialComponents.TextView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="fontFamily">@font/open_sans</item>
+    </style>
+    <style name="buttonAddToCart" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+        <item name="colorPrimary">@color/Green1</item>
+    </style>
+    <style name="Tb" parent="Theme.MaterialComponents">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="colorPrimary">@color/Green1</item>
+        <item name="colorOnPrimary">@color/Pink1</item>
+        <item name="android:clickable">true</item>
+    </style>
+
+    <style name="SpinnerDatePickerDialog" parent="ThemeOverlay.MaterialComponents.MaterialAlertDialog">
+        <item name="android:datePickerStyle">@style/SpinnerDatePicker</item>
+        <item name="android:background">?attr/colorBackgroundFloating</item>
+    </style>
+    <style name="SpinnerDatePicker" parent="@android:style/Widget.DatePicker">
+        <item name="android:calendarViewShown">false</item>
+        <item name="android:datePickerMode">spinner</item>
+    </style>
+</resources>

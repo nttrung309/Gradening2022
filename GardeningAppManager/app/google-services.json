@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "233651744440",
+    "firebase_url": "https://gardeningserviceapp-default-rtdb.firebaseio.com",
+    "project_id": "gardeningserviceapp",
+    "storage_bucket": "gardeningserviceapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233651744440:android:51b29e7473839a20edce4d",
+        "android_client_info": {
+          "package_name": "com.example.gardeningappmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233651744440-k4nb5i9542ravk5s9ndt4lmuipne769l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcO-F9HfpYAF7kpjaC_TAzn596pD58GkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233651744440-k4nb5i9542ravk5s9ndt4lmuipne769l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:233651744440:android:13b972863c7ac508edce4d",
+        "android_client_info": {
+          "package_name": "com.example.gardeningservices"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "233651744440-roktbm2as11h4jt6sqps3jigs1ogoj8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.gardeningservices",
+            "certificate_hash": "19cfa6fbef8c1fe4337a5f144f6f10757e34f1ab"
+          }
+        },
+        {
+          "client_id": "233651744440-k4nb5i9542ravk5s9ndt4lmuipne769l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCcO-F9HfpYAF7kpjaC_TAzn596pD58GkA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "233651744440-k4nb5i9542ravk5s9ndt4lmuipne769l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

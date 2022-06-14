@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.circularreveal.cardview.CircularRevealCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/cv_services"
+    style="@style/serviceCard">
+    <LinearLayout
+        android:id="@+id/ly_sv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:gravity="center"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_im_sv"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp">
+        </androidx.appcompat.widget.AppCompatImageView>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_name_sv"
+            style="@style/serviceTextView"/>
+        <com.google.android.material.textview.MaterialTextView
+            style="@style/servicePriceTextView"
+            android:id="@+id/tv_price_sv" />
+    </LinearLayout>
+</com.google.android.material.circularreveal.cardview.CircularRevealCardView>

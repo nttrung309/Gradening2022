@@ -1,0 +1,127 @@
+<resources>
+    <string name="app_name">Gardening Services</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TitleWelcome1">Hello!</string>
+    <string name="TitleWelcome2">Start contributing to nature from today!</string>
+    <string name="Search">Search</string>
+    <string name="Category">Categories</string>
+    <string name="SeeAll">See all</string>
+    <string name="SpecialOffers">Special offers</string>
+    <string name="discount">Discount</string>
+    <string name="Let_get_started">Lets get started</string>
+    <string name="getDiscountUntil">Get discount until</string>
+    <string name="Services">Services</string>
+    <string name="Package">Package</string>
+
+    <!--Descriptions-->
+    <string name="first_slide_desc">We wil help you to grow and organize your garden. </string>
+    <string name="second_slide_desc">Get your desired plants, tools, and services for gardening by staying home. </string>
+    <string name="third_slide_desc">The augmented reality feature will help you to see how a plant looks in your house. </string>
+
+    <!--Buttons-->
+    <string name="skip_btn"> Skip </string>
+    <string name="next_btn"> Next </string>
+    <string name="get_started"> Get started </string>
+    <string name="Full_Name">User name</string>
+    <string name="Your_Email">Your Email</string>
+    <string name="Password">Password</string>
+    <string name="Sign_Up">Sign Up</string>
+    <string name="Sign_In">Sign In</string>
+    <string name="Welcome_to_Plantify"> Welcome to Plantify</string>
+    <string name="Sign_in_to_continue">Sign in to continue</string>
+    <string name="Have_an_account">Have an account</string>
+    <string name="or">OR</string>
+    <string name="Register">Register</string>
+    <string name="Do_you_have_a_account">Do you have a account?</string>
+    <string name="Forgot_Password">Forgot Password? </string>
+    <string name="Login_with_Google">Login with Google</string>
+    <string name="Login_with_Facebook">Login with Facebook</string>
+    <string name="Password_Again">Password Again</string>
+    <string name="Create_an_new_account">Create an new account</string>
+
+    <!--    category-->
+    <string name="flower">Flower</string>
+    <string name="harvest">Fruit</string>
+    <string name="vegetables">Vegetables</string>
+    <string name="herbal">Herbal</string>
+
+    <!--    service-->
+    <string name="Detail_services">Service Detail</string>
+    <string name="care">Monthly Care</string>
+    <string name="balcony">Balcony Setup</string>
+    <string name="decor">Office Decor</string>
+    <string name="Stock_in">Stock in</string>
+    <string name="name_service">Service Name</string>
+    <string name="price_service">Price </string>
+    <string name="organize">Organize Garden</string>
+    <string name="title_activity_sell_all_category">SellAllCategoryActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="buy_now">Buy now </string>
+    <string name="add_to_cart">Add to cart </string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="profile"> Profile </string>
+    <string name="sale">Flash Sales</string>
+    <!--    cart-->
+    <string-array name="listGender">
+        <item>Female</item>
+        <item>Male</item>
+        <item>Other</item>
+    </string-array>
+    <string name="titleCart">Cart</string>
+    <string name="Items"> Items</string>
+    <string name="Shipping"> Shipping</string>
+    <string name="ImportCharges"> Import Charges (20%)</string>
+    <string name="Total"> Total</string>
+    <string name="Number"> 0</string>
+    <string-array name="quantity_string_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <!--    check out shipment-->
+    <string name="titleCheckOutShipment">Ship to</string>
+
+    <string name="product">Products</string>
+
+    <!--    Order-->
+    <string name="titleOrderHistory">Order History</string>
+    <string name="titleOrder">Order</string>
+    <string name="orderItems">Items</string>
+    <string name="orderPrice">Price</string>
+    <string name="orderState">Order Status</string>
+    <string name="orderId">Id</string>
+    <string name="orderDate">Date</string>
+    <string name="orderDetail">Order detail</string>
+    <string name="orderShippingDetail">Shipping Detail</string>
+    <string name="orderPaymentDetail">Payment Detail</string>
+    <string name="orderDateShipping">Date Shipping</string>
+    <string name="orderShippingName">Name</string>
+    <string name="orderShippingTelephone">Telephone</string>
+    <string name="orderShippingAddress">Address</string>
+    <string name="orderShippingProvince">Province</string>
+    <string name="orderShippingDistrict">District</string>
+    <string name="orderShippingWard">Ward</string>
+    <!--    Address-->
+    <string name="add_address">Add New Address</string>
+    <string name="fullName">Full Name</string>
+    <string name="create_address">Create New Address</string>
+    <string name="title_address_management">Address Management</string>
+    <string name="Province">Province</string>
+    <string name="District">District</string>
+    <string name="phoneNumber">Phone Number</string>
+    <string name="ward">Ward</string>
+    <string name="save_new_address">Save New Address</string>
+    <string name="detailAddress">Address Details</string>
+    <string name="editAddress">Edit Address</string>
+    <string name="saveAddress">Save Address</string>
+    <string name="nextStep">Next</string>
+</resources>

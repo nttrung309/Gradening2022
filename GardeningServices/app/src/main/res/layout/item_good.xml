@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/cv_category"
+    style="@style/productCard">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/tv_image_good"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_name_good"
+            style="@style/productNameTextView"
+            android:layout_alignBottom="@id/tv_image_good"/>
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/tv_price_good"
+            style="@style/productPriceTextView"/>
+
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>
